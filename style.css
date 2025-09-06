@@ -25,11 +25,6 @@ u {
     text-decoration: none;
 }
 
-h2 {
-  text-decoration:underline;
-  text-decoration-style: dotted;
-}
-
 /* unvisited link */
 a:link {
   color: #b94a4a;
