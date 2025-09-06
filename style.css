@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
   background: #ffffff;
   color: #20174b;
-  font-family: "B612 Mono", monospace;
-  font-size: smaller;
+  font-family: "Inria Sans", monospace;
+  font-size: auto;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: auto;
-  max-width: 60em;
+  max-width: 55em;
 }
 
- /* unvisited link */
+h2 {
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+
+/* unvisited link */
 a:link {
-  color: #AA4499;
+  color: #b94a4a;
   text-decoration: none;
 }
 
@@ -26,16 +31,16 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #882255;
-  text-decoration: underline;
+  color: #830644;
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
   color: #AA4499;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul {
-    list-style: "· ";
+  list-style-type: square;
 }
