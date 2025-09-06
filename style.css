@@ -2,8 +2,9 @@
 
 body {
   background: #ffffff;
-  color: #4e2147;
+  color: #20174b;
   font-family: "B612 Mono", monospace;
+  font-size: smaller;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -13,25 +14,25 @@ body {
 
  /* unvisited link */
 a:link {
-  color: #116d7e;
+  color: #AA4499;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #1a3d1a;
+  color: #CC6677;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: #6aa8b8;
+  color: #882255;
   text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: #5656cc;
+  color: #AA4499;
   text-decoration: underline;
 }
 
