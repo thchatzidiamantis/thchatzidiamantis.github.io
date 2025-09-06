@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 body {
   background: #ffffff;
   color: #20174b;
-  font-family: "Inria Sans", monospace;
+  font-family: "Inria Sans", sans-serif;
   font-size: auto;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: auto;
   max-width: 55em;
+}
+
+.mono {
+  font-family: "Fira Code", monospace;
+  font-size: smaller;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+u {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
 }
 
 h2 {
