@@ -10,5 +10,6 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true
-  }
+  },
+  "output.smartScroll.enabled": true
 }
