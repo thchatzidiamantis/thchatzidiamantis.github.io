@@ -1,52 +1,67 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
 
 body {
-  background: #283533;
-  color: #fffacd;
-  font-family: "Ysabeau", sans-serif;
+  background: #fffffd;
+  color: #00000f;
+  /* fffacd? */
+  font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-size: medium;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   margin: auto;
   max-width: 55em;
 }
 
+footer {
+    background-color: #ffffff;
+    text-align: auto;
+    padding: 10px;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+}
+
 .mono {
-  font-family: "Fira Code", monospace;
+  font-family: "Atkinson Hyperlegible Mono", monospace;
   font-size: smaller;
   font-optical-sizing: auto;
   font-weight: 400;
 }
 
+hr {
+  border-top: none;
+  border-bottom: 1px dotted #FFB000;
+
+}
+
 u {    
-    border-bottom: 1px dotted #fffacd;
+    border-bottom: 1px dotted #FFB000;
     text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
-  color: #ffd54d;
+  color: #DC267F;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #ddcf55;
+  color: #DC267F;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: #f1a9a0;
+  color: #FE6100;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: #dd8479;
+  color: #FFB000;
   text-decoration: none;
 }
 
