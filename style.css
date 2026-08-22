@@ -65,12 +65,7 @@ a:active {
 /* Lists and details  */
 
 ul {
-  list-style: none '' inside;
-}
-
-ul li:before {
-  content: '\2AE6';
-  margin: .2em;
+  list-style: circle;
 }
 
 summary {
