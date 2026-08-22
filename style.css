@@ -9,6 +9,7 @@ body {
   font-style: normal;
   margin: auto;
   max-width: 55em;
+  padding: 1em;
 }
 
 footer {
@@ -61,6 +62,27 @@ a:active {
   text-decoration: none;
 }
 
+/* Lists and details  */
+
 ul {
-  list-style-type: square;
+  list-style: none '' inside;
+}
+
+ul li:before {
+  content: '\2AE6';
+  margin: .2em;
+}
+
+summary {
+  list-style: none;
+  display: inline-flex;
+}
+
+summary:before {
+  content: '\27DC';
+  margin: 0 .5em;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
 }
