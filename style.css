@@ -1,24 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono/static/ibm-plex-mono-latin-400-normal.woff2') format('woff2'),
+    url('fonts/ibm-plex-mono/static/ibm-plex-mono-latin-400-normal.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono/static/ibm-plex-mono-latin-400-italic.woff2') format('woff2'),
+    url('fonts/ibm-plex-mono/static/ibm-plex-mono-latin-400-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
 
 body {
   background: #fffce3;
   color: #2d3846;
   font-family: "IBM Plex Mono", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   margin: auto;
   max-width: 55em;
-  padding: 1em;
+  padding: 2em;
 }
 
 footer {
-    text-align: auto;
-    padding: 10px;
-    position: auto;
-    bottom: 0;
-    width: 100%;
+  text-align: auto;
+  padding: 10px;
+  position: auto;
+  bottom: 0;
+  width: 100%;
 }
 
 .mono {
@@ -35,9 +48,9 @@ hr {
 
 }
 
-u {    
-    border-bottom: 1px dotted #2d3846;
-    text-decoration: none;
+u {
+  border-bottom: 1px dotted #2d3846;
+  text-decoration: none;
 }
 
 /* unvisited link */
@@ -84,6 +97,11 @@ summary:before {
   margin: 0 .5em;
 }
 
-details[open] > summary::before {
+details[open]>summary::before {
   transform: rotate(90deg);
+}
+
+img {
+  max-width: 25em;
+  height: auto;
 }
