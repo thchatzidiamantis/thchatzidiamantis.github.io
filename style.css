@@ -23,7 +23,7 @@ body {
   font-style: normal;
   margin: auto;
   max-width: 55em;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 footer {
@@ -104,4 +104,6 @@ details[open]>summary::before {
 img {
   max-width: 25em;
   height: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
