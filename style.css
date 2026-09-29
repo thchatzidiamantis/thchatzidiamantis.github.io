@@ -20,6 +20,7 @@ body {
   color: #2d3846;
   font-family: "IBM Plex Mono", sans-serif;
   font-optical-sizing: auto;
+  font-size: smaller;
   font-style: normal;
   margin: auto;
   max-width: 55em;
@@ -37,15 +38,10 @@ footer {
 .mono {
   font-family: "IBM Plex Mono", monospace;
   font-optical-sizing: auto;
+  font-size: smaller;
   font-size: 1em;
   font-weight: 400;
   color: #20589c;
-}
-
-hr {
-  border-top: none;
-  border-bottom: 1px dotted #2d3846;
-
 }
 
 u {
@@ -103,5 +99,5 @@ details[open]>summary::before {
 
 img {
   height: auto;
-  max-width: 75%;
+  max-width: 50%;
 }
