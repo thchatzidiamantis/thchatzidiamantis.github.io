@@ -15,9 +15,17 @@
   font-style: italic;
 }
 
+:root {
+  --bg-color: #fffce3;
+  --text-color: #2d3846;
+  --highlight-color: #20589c;
+  --link-color-1: #cd267f;
+  --link-color-2: #ffb000;
+}
+
 body {
-  background: #fffce3;
-  color: #2d3846;
+  background: var(--bg-color);
+  color: var(--text-color);
   font-family: "IBM Plex Mono", sans-serif;
   font-optical-sizing: auto;
   font-size: smaller;
@@ -41,35 +49,35 @@ footer {
   font-size: smaller;
   font-size: 1em;
   font-weight: 400;
-  color: #20589c;
+  color: var(--highlight-color)
 }
 
 u {
-  border-bottom: 1px dotted #2d3846;
+  border-bottom: 1px dotted var(--text-color);
   text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
-  color: #DC267F;
+  color: var(--link-color-1);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #DC267F;
+  color: var(--link-color-1);
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: #FE6100;
-  text-decoration: none;
+  color: var(--link-color-1);
+  font-style: italic;
 }
 
 /* selected link */
 a:active {
-  color: #FFB000;
+  color: var(--link-color-2);
   text-decoration: none;
 }
 
@@ -92,6 +100,8 @@ summary:before {
   content: '\27DC';
   margin: 0 .5em;
 }
+
+details { cursor: pointer; }
 
 details[open]>summary::before {
   transform: rotate(90deg);
